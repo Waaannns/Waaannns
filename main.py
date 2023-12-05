@@ -59,7 +59,7 @@ def buka_file_spo_py():
     except Exception as e:
         print(f"Error: {e}")
 
-def buka_file_spo_py():
+def buka_file_gojek_py():
     try:
         subprocess.run(["python", "gojek.py"])
     except Exception as e:
